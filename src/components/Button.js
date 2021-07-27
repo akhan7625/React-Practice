@@ -7,7 +7,7 @@ const STYLES = ['btn--primary', 'btn--outline'];
 const SIZES = ['btn--medium', 'btn--large'];
 // creating css classes
 
-export const Button = ({children, type, onClick, buttonStyle
+export const Button = ({children, type, onClick, buttonStyle, buttonSize
 }) => {
     const checkButtonStyle = STYLES.includes(buttonStyle) 
     ? buttonStyle 
